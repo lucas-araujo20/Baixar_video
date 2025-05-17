@@ -80,7 +80,7 @@ def index():
         url = request.form.get('url')
         formato = request.form.get('formato')
 
-        output_dir = '/sdcard/Download/'
+        output_dir = '/tmp'
         
         cookies_path = 'cookies.txt'
 
